@@ -20,3 +20,21 @@ My game bots for different challenges
 9th place
 
 [My Tank](EPAM/2021/Tanki/)
+
+
+# 2020
+
+## Epam 2020 bot challenge, December, Zombie
+
+2nd place
+
+[My lovely Zombie](EPAM/2020/Zombie/)
+
+
+## Epam 2020 bot challenge, Summer, BomberMAN
+
+My first expirience in bots creation.
+
+11nd place
+
+[My lovely Zombie](EPAM/2020/Bomberman/)
