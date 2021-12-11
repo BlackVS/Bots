@@ -7,4 +7,4 @@ My game bots for different challenges
 
 9th place
 
-[My Clifford bot](./2021/Clifford/)
+[My Clifford bot](./EPAM/2021/Clifford/README.md)
