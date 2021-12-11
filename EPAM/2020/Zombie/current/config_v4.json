@@ -1,0 +1,17 @@
+{
+  "room_size"  : 5,
+  "score_exit" : 25,
+  "score_gold" : 10,
+  "score_kill_other_robo" : 10,
+  "score_kill_zombie" : 5,
+  "score_self_kill" : 5,
+  "perks_rate" : 50,
+  "perks_live" : 10,
+  "perks_action_dur" : 10,
+  "perk_laser_death_len" : 10,
+  "lasergun_reload_time" : 2,
+  "lasergun_shots2overheat" : 10,
+  "lasergun_ticks2cold" : 10,
+  "lasergun_dt_heat" : 3,
+  "lasergun_dt_cool" : 1
+}

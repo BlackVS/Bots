@@ -1,0 +1,33 @@
+{
+    "boardSize": 23,
+    "bombPower": 3,
+    "bombsCount": 1,
+    "catchPerkScore": 5,
+    "destroyWallCount": 52,
+    "diePenalty": 30,
+    "isMultiple": true,
+    "killMeatChopperScore": 10,
+    "killOtherHeroScore": 20,
+    "killWallScore": 1,
+    "meatChoppersCount": 5,
+    "perkBombBlastRadiusInc": 2,
+    "perkBombCountInc": 4,
+    "perkDropRatio": 20,
+    "perkPickTimeout": 30,
+    "perkPoisonThrower": 30,
+    "perkPoisonExploder": 30,
+    "playersPerRoom": 5,
+    "remoteControlCount": 3,
+    "roundSettings": {
+        "minTicksForWin": 1,
+        "roundsEnabled": false,
+        "roundsPerMatch": 1,
+        "timeBeforeStart": 5,
+        "timeForWinner": 1,
+        "timePerRound": 200
+    },
+    "timeoutBombBlastRadiusInc": 30,
+    "timeoutBombCountInc": 30,
+    "timeoutBombImmune": 30,
+    "winRoundScore": 30
+}

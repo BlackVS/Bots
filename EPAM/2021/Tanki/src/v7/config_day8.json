@@ -1,0 +1,15 @@
+{
+    "showMyTankUnderTree": false,
+    "killYourTankPenalty": 25,
+    "killOtherHeroTankScore": 50,
+    "killOtherAiTankScore": 25,
+    "spawnAiPrize": 4,
+    "killHitsAiPrize": 2,
+    "prizeOnField": 50,
+    "prizeWorking": 30,
+    "aiTicksPerShoot": 10,
+    "tankTicksPerShoot": 4,
+    "slipperiness": 3,
+    "aiPrizeLimit": 3,
+    "penaltyWalkingOnWater": 2
+}

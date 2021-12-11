@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+import model_directions as DIR
+
+
+BULLET_DANGER_LEFT  = [ (-1, 0), (-2,0) ]
+BULLET_DANGER_RIGHT = [ ( 1, 0), ( 2,0) ]
+
+BULLET_DANGER_DIST = {
+    DIR.DIR_UNKNOWN : BULLET_DANGER_LEFT+BULLET_DANGER_RIGHT,
+    DIR.DIR_LEFT    : BULLET_DANGER_LEFT,
+    DIR.DIR_RIGHT   : BULLET_DANGER_RIGHT,
+}

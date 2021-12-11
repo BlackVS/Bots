@@ -1,0 +1,161 @@
+
+BOARDSTRING:
+☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼    ˄            »     ☼☼   ˃╞╬  «    ╬      «  ☼☼ ╬╬ ╬╬ ╦╬╬ ╦╬╬ ╦╬╬╬    ☼☼   Ѡ╬╬       ╬         ☼☼####   #####       %%  ☼☼¿ ~~%%%~~     ╬╨   %%  ☼☼   ~~ ~~   ˃   «   %%  ☼☼ ╬  ~~             ╦   ☼☼ ╬╬%%%%########    ╬╬  ☼☼ ╬╬%%%%            ╬╬ •☼☼ ╬  ╬╬ ╬╬ ╬╩ ╬╬  ╬╬╬╬  ☼☼  ##                   ☼☼  #?  % %  ? #~~  %%   ☼☼  ##   %     # ~~ %%   ☼☼  ##  % %    #  ~~%%%  ☼☼  ##•~      •#~~~      ☼☼◄˅##~~     %%% ?  ╬╬   ☼☼  ##~~  ╬╬   %    ╬╬   ☼☼  ##~~  ╬╬        ╬╬   ☼☼        ╬╬        ╬╬   ☼☼    ╬╬  ╬╬  ╬╬  ╬╬╬╬   ☼☼                  •    ☼☼                 »   ˅ ☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼
+
+BEFORE:
+TOBJ_IDXCNT: 1
+
+ME:
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=NoneType cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int
+player_type=T1 gun_reload_time=3 ID=0 PX=2 PY=17 X=1 Y=17 updated=False rotation=3 alive=True shot_counter=0 shot_counter_prev=None cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=2 LastY=17
+
+PLAYERS:
+player_type=str tobjects=list tobjects_new=list boardwidth=int boardheight=int
+player_type=T3 boardwidth=25 boardheight=25
+player_type=str gun_reload_time=int ID=int PX=NoneType PY=NoneType X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int PREV_NEAR_MOVES=list NEAR_MOVES=list ai_has_perk=bool
+0: player_type=T3 gun_reload_time=3 ID=12 PX=None PY=None X=5 Y=1 updated=True rotation=1 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=9 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=5 LastY=1 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=int est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int PREV_NEAR_MOVES=list NEAR_MOVES=list ai_has_perk=bool
+1: player_type=T3 gun_reload_time=3 ID=13 PX=3 PY=2 X=4 Y=2 updated=True rotation=4 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=5 est_lifetime=2 est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=4 LastY=2 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int PREV_NEAR_MOVES=list NEAR_MOVES=list ai_has_perk=bool
+2: player_type=T3 gun_reload_time=3 ID=20 PX=23 PY=22 X=22 Y=22 updated=True rotation=3 alive=False shot_counter=3 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=23 LastY=22 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int PREV_NEAR_MOVES=list NEAR_MOVES=list ai_has_perk=bool
+3: player_type=T3 gun_reload_time=3 ID=22 PX=1 PY=16 X=2 Y=16 updated=True rotation=4 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=1 LastY=16 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int PREV_NEAR_MOVES=list NEAR_MOVES=list ai_has_perk=bool
+4: player_type=T3 gun_reload_time=3 ID=40 PX=11 PY=8 X=11 Y=7 updated=True rotation=1 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=11 LastY=8 ai_has_perk=False
+===
+
+ZOMBIES:
+player_type=str tobjects=list tobjects_new=list boardwidth=int boardheight=int
+player_type=T2 boardwidth=25 boardheight=25
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=int est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+0: player_type=T2 gun_reload_time=9 ID=2 PX=4 PY=4 X=4 Y=5 updated=True rotation=2 alive=False shot_counter=2 shot_counter_prev=3 cnt_same_position=5 est_lifetime=1 est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=4 LastY=5 ai_has_perk=True
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+1: player_type=T2 gun_reload_time=9 ID=3 PX=11 PY=2 X=10 Y=2 updated=True rotation=3 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=11 LastY=2 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=int est_killer_id=int est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+2: player_type=T2 gun_reload_time=9 ID=4 PX=16 PY=1 X=17 Y=1 updated=True rotation=4 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=6 est_killer_id=20 est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=16 LastY=1 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+3: player_type=T2 gun_reload_time=9 ID=5 PX=23 PY=2 X=22 Y=2 updated=True rotation=3 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=23 LastY=2 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+4: player_type=T2 gun_reload_time=9 ID=7 PX=4 PY=15 X=4 Y=14 updated=True rotation=1 alive=False shot_counter=2 shot_counter_prev=3 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=1 LastX=4 LastY=15 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+5: player_type=T2 gun_reload_time=9 ID=8 PX=16 PY=23 X=17 Y=23 updated=True rotation=4 alive=False shot_counter=2 shot_counter_prev=3 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=16 LastY=23 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+6: player_type=T2 gun_reload_time=9 ID=10 PX=16 PY=18 X=16 Y=17 updated=True rotation=1 alive=False shot_counter=2 shot_counter_prev=3 cnt_same_position=3 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=16 LastY=17 ai_has_perk=True
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+7: player_type=T2 gun_reload_time=9 ID=33 PX=1 PY=4 X=1 Y=5 updated=True rotation=2 alive=False shot_counter=4 shot_counter_prev=5 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=3 LastX=1 LastY=4 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+8: player_type=T2 gun_reload_time=9 ID=38 PX=18 PY=7 X=17 Y=7 updated=True rotation=3 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=18 LastY=7 ai_has_perk=True
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+9: player_type=T2 gun_reload_time=9 ID=39 PX=12 PY=15 X=12 Y=14 updated=True rotation=1 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=12 LastY=15 ai_has_perk=False
+===
+
+BULLETS:
+tobjects=list tobjects_new=list boardwidth=int boardheight=int
+boardwidth=25 boardheight=25
+ID=int PX=int PY=int X=int Y=int updated=bool PREV_NEAR_MOVES=list NEAR_MOVES=list cnt_same_position=int direction=int
+0: ID=36 PX=9 PY=16 X=11 Y=16 updated=True cnt_same_position=0 direction=4
+ID=int PX=int PY=int X=int Y=int updated=bool parent_id=int direction=int PREV_NEAR_MOVES=list NEAR_MOVES=list cnt_same_position=int
+1: ID=37 PX=23 PY=14 X=23 Y=12 updated=True parent_id=20 direction=1 cnt_same_position=0
+ID=int PX=int PY=int X=int Y=int updated=bool PREV_NEAR_MOVES=list NEAR_MOVES=list cnt_same_position=int direction=int
+2: ID=41 PX=4 PY=8 X=4 Y=6 updated=True cnt_same_position=0 direction=1
+ID=int PX=NoneType PY=NoneType X=int Y=int updated=bool
+3: ID=42 PX=None PY=None X=3 Y=16 updated=True
+ID=int PX=NoneType PY=NoneType X=int Y=int updated=bool parent_id=int direction=int
+4: ID=43 PX=None PY=None X=21 Y=22 updated=True parent_id=20 direction=3
+===
+
+PERKS:
+===
+
+INPUTBOARD:
+ 0 : ☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼
+ 1 : ☼    ˄            »     ☼
+ 2 : ☼   ˃╞╬  «    ╬      «  ☼
+ 3 : ☼ ╬╬ ╬╬ ╦╬╬ ╦╬╬ ╦╬╬╬    ☼
+ 4 : ☼   Ѡ╬╬       ╬         ☼
+ 5 : ☼####   #####       %%  ☼
+ 6 : ☼¿ ~~%%%~~     ╬╨   %%  ☼
+ 7 : ☼   ~~ ~~   ˃   «   %%  ☼
+ 8 : ☼ ╬  ~~             ╦   ☼
+ 9 : ☼ ╬╬%%%%########    ╬╬  ☼
+10 : ☼ ╬╬%%%%            ╬╬ •☼
+11 : ☼ ╬  ╬╬ ╬╬ ╬╩ ╬╬  ╬╬╬╬  ☼
+12 : ☼  ##                   ☼
+13 : ☼  #?  % %  ? #~~  %%   ☼
+14 : ☼  ##   %     # ~~ %%   ☼
+15 : ☼  ##  % %    #  ~~%%%  ☼
+16 : ☼  ##•~      •#~~~      ☼
+17 : ☼◄˅##~~     %%% ?  ╬╬   ☼
+18 : ☼  ##~~  ╬╬   %    ╬╬   ☼
+19 : ☼  ##~~  ╬╬        ╬╬   ☼
+20 : ☼        ╬╬        ╬╬   ☼
+21 : ☼    ╬╬  ╬╬  ╬╬  ╬╬╬╬   ☼
+22 : ☼                  •    ☼
+23 : ☼                 »   ˅ ☼
+24 : ☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼
+
+UPDATED:
+TOBJ_IDXCNT: 1
+
+ME:
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=NoneType cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int
+player_type=T1 gun_reload_time=3 ID=0 PX=2 PY=17 X=1 Y=17 updated=False rotation=3 alive=True shot_counter=0 shot_counter_prev=None cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=1 LastY=17
+
+PLAYERS:
+player_type=str tobjects=list tobjects_new=list boardwidth=int boardheight=int
+player_type=T3 boardwidth=25 boardheight=25
+player_type=str gun_reload_time=int ID=int PX=NoneType PY=NoneType X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int PREV_NEAR_MOVES=list NEAR_MOVES=list ai_has_perk=bool
+0: player_type=T3 gun_reload_time=3 ID=12 PX=None PY=None X=5 Y=1 updated=True rotation=1 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=10 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=5 LastY=1 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int PREV_NEAR_MOVES=list NEAR_MOVES=list ai_has_perk=bool
+1: player_type=T3 gun_reload_time=3 ID=13 PX=3 PY=2 X=4 Y=2 updated=True rotation=4 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=6 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=4 LastY=2 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int PREV_NEAR_MOVES=list NEAR_MOVES=list ai_has_perk=bool
+2: player_type=T3 gun_reload_time=3 ID=20 PX=22 PY=22 X=22 Y=23 updated=True rotation=2 alive=False shot_counter=2 shot_counter_prev=3 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=22 LastY=22 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int PREV_NEAR_MOVES=list NEAR_MOVES=list ai_has_perk=bool
+3: player_type=T3 gun_reload_time=3 ID=22 PX=2 PY=16 X=2 Y=17 updated=True rotation=2 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=2 LastY=16 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int PREV_NEAR_MOVES=list NEAR_MOVES=list ai_has_perk=bool
+4: player_type=T3 gun_reload_time=3 ID=40 PX=11 PY=7 X=12 Y=7 updated=True rotation=4 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=11 LastY=7 ai_has_perk=False
+===
+
+ZOMBIES:
+player_type=str tobjects=list tobjects_new=list boardwidth=int boardheight=int
+player_type=T2 boardwidth=25 boardheight=25
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+0: player_type=T2 gun_reload_time=9 ID=3 PX=10 PY=2 X=9 Y=2 updated=True rotation=3 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=10 LastY=2 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+1: player_type=T2 gun_reload_time=9 ID=4 PX=17 PY=1 X=18 Y=1 updated=True rotation=4 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=17 LastY=1 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+2: player_type=T2 gun_reload_time=9 ID=5 PX=22 PY=2 X=21 Y=2 updated=True rotation=3 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=22 LastY=2 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+3: player_type=T2 gun_reload_time=9 ID=7 PX=4 PY=14 X=4 Y=13 updated=True rotation=1 alive=False shot_counter=1 shot_counter_prev=2 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=3 LastX=4 LastY=14 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+4: player_type=T2 gun_reload_time=9 ID=8 PX=17 PY=23 X=18 Y=23 updated=True rotation=4 alive=False shot_counter=1 shot_counter_prev=2 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=17 LastY=23 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+5: player_type=T2 gun_reload_time=9 ID=10 PX=16 PY=18 X=16 Y=17 updated=True rotation=1 alive=False shot_counter=1 shot_counter_prev=2 cnt_same_position=4 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=16 LastY=17 ai_has_perk=True
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+6: player_type=T2 gun_reload_time=9 ID=33 PX=1 PY=5 X=1 Y=6 updated=True rotation=2 alive=False shot_counter=3 shot_counter_prev=4 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=1 LastY=5 ai_has_perk=False
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+7: player_type=T2 gun_reload_time=9 ID=38 PX=17 PY=7 X=16 Y=7 updated=True rotation=3 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=17 LastY=7 ai_has_perk=True
+player_type=str gun_reload_time=int ID=int PX=int PY=int X=int Y=int updated=bool rotation=int alive=bool shot_counter=int shot_counter_prev=int cnt_same_position=int est_lifetime=NoneType est_killer_id=NoneType est_is_target=bool perk_IMMORTALITY_cnt=int perk_BREAKING_WALLS_cnt=int perk_WALKING_ON_WATER_cnt=int perk_VISIBILITY_cnt=int perk_NO_SLIDING_cnt=int sliding_cnt=int LastX=int LastY=int ai_has_perk=bool PREV_NEAR_MOVES=list NEAR_MOVES=list
+8: player_type=T2 gun_reload_time=9 ID=39 PX=12 PY=14 X=12 Y=13 updated=True rotation=1 alive=False shot_counter=0 shot_counter_prev=0 cnt_same_position=0 est_lifetime=None est_killer_id=None est_is_target=False perk_IMMORTALITY_cnt=0 perk_BREAKING_WALLS_cnt=0 perk_WALKING_ON_WATER_cnt=0 perk_VISIBILITY_cnt=0 perk_NO_SLIDING_cnt=0 sliding_cnt=0 LastX=12 LastY=14 ai_has_perk=False
+===
+
+BULLETS:
+tobjects=list tobjects_new=list boardwidth=int boardheight=int
+boardwidth=25 boardheight=25
+ID=int PX=int PY=int X=int Y=int updated=bool PREV_NEAR_MOVES=list NEAR_MOVES=list cnt_same_position=int direction=int
+0: ID=36 PX=11 PY=16 X=13 Y=16 updated=True cnt_same_position=0 direction=4
+ID=int PX=int PY=int X=int Y=int updated=bool parent_id=int direction=int PREV_NEAR_MOVES=list NEAR_MOVES=list cnt_same_position=int
+1: ID=37 PX=23 PY=12 X=23 Y=10 updated=True parent_id=20 direction=1 cnt_same_position=0
+ID=int PX=int PY=int X=int Y=int updated=bool PREV_NEAR_MOVES=list NEAR_MOVES=list cnt_same_position=int direction=int
+2: ID=42 PX=3 PY=16 X=5 Y=16 updated=True cnt_same_position=0 direction=4
+ID=int PX=int PY=int X=int Y=int updated=bool parent_id=int direction=int PREV_NEAR_MOVES=list NEAR_MOVES=list cnt_same_position=int
+3: ID=43 PX=21 PY=22 X=19 Y=22 updated=True parent_id=20 direction=3 cnt_same_position=0
+===
+
+PERKS:
+===
+INFO: get_next_command
+INFO: CMD <2>
+INFO: me_do_cmd
+INFO: Sending Command <DOWN>
+
